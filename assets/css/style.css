@@ -117,6 +117,136 @@ footer p{
     font-size: 0.6em;
 }
 
+.section-sucursal .container h2{
+    font-size: 4vmin;
+    padding-top: 8vmin;
+    font-family: "Sen";
+    font-weight: 400;
+}
+
+.section-sucursal .sucursales{
+    padding: 10vmin 4vmin;
+}
+
+.section-sucursal.card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-sucursal .card-title{
+    padding: 0.05em;
+    font-size: 1em;
+}
+
+body.contact main {
+    position:relative;
+    min-height:100%;
+    height:100%;
+    height:auto !important;
+    background: url("../img/souffle.jpg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.sectionTable .container{
+    margin-top: 10vmin;
+}
+
+form {
+    background-color: rgb(251, 216, 171);
+    width: 53%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+}
+
+
+fieldset {
+    background-color: rgb(251, 216, 171);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    border: 0;
+}
+
+legend{
+    text-align: center;
+    font-family: "Sen";
+    font-size: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 82%;
+    font-family: "Sen";
+    font-size: 15px;
+}
+
+td{
+    padding-left: 20px;
+}
+
+td div{
+    display: block;
+}
+
+.form_field{
+    border: 0;
+    border-bottom: 2px solid black;
+    width: 90%;
+    background: transparent;
+    padding: 9px 0;
+}
+
+select {
+    font-family: "Sen";
+    font-size: 15px;
+}
+
+.enviar{
+    display: inline-block;
+    width: 300px;
+    height: 10%;
+    margin-left: 35%;
+    margin-top: 10px;
+    vertical-align: middle;
+    border: black 1px solid;
+    overflow: visible;
+    background-color: white;
+    padding: 0;
+}
+.enviar .form_field{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: "Sen";
+}
+
+body.menu main .section-1{
+    min-height:100%;
+    height:100%;
+    height:auto !important;
+    background: url("../img/souffle.jpg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
 
 
 /*
