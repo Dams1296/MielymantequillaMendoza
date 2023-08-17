@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "package.json",
+=======
+  "name": "css",
+>>>>>>> 9c06d30b7c0d34071fd8d5b7ace5caba0982c929
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
