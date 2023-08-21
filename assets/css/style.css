@@ -157,7 +157,14 @@ body footer p {
 }
 
 .section-menu {
-  background-color: rgb(251, 216, 171);
+  background-image: linear-gradient(white, antiquewhite);
+}
+.section-menu .row .card {
+  background-image: radial-gradient(circle, white, antiquewhite);
+  transition: 1s;
+}
+.section-menu .row .card:hover {
+  transform: translatey(-80px);
 }
 .section-menu .row img {
   width: 180px;

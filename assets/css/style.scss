@@ -202,15 +202,21 @@ body{
          }
     }
 }
-.section-menu {
-    background-color: rgb(251, 216, 171); 
+.section-menu { 
+    background-image: linear-gradient( white, antiquewhite); 
         .row{
+            .card{
+                background-image: radial-gradient(circle, white, antiquewhite);
+                transition: 1s;
+            }
+            .card:hover{
+                transform: translatey(-80px);
+            }
             img {
                 width: 180px;
                 border-radius: 40%;
             }
-    }
-
+        }
 }
     
 
