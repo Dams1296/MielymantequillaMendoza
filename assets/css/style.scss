@@ -216,6 +216,21 @@ body{
                 width: 180px;
                 border-radius: 40%;
             }
+
+            button {
+                font-family: "Courgette";
+                font-size: 4vmin;
+                width: 12rem;
+                height: 10vmin;
+                border-radius: 30px;
+                background-color: rgb(233, 153, 48);
+                cursor: pointer;
+            }
+
+            button:hover{
+                transition: all 1s ease;
+                background-color: antiquewhite;
+            }
         }
 }
     
