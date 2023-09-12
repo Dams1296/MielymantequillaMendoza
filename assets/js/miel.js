@@ -10,6 +10,8 @@
 
 //Donde agregar una función???
 
+function comprar() {
+
 let nombreCliente = prompt("Ingrese su nombre de cliente")
 
 function tieneValoresNumericos(cadena) {
@@ -64,7 +66,7 @@ if (pagoPregunta.toLowerCase().trim() == "si"){
     alert("Gracias por visitarnos")
 }
 
+}
+const boton = document.getElementById("botonComprar")
 
-
-
-
+boton.addEventListener("Click", comprar)
